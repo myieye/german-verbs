@@ -1,4 +1,0 @@
-Dieses App steht unter der GNU General Public Lizenz.
-
-Der Quelltext ist unter github.com/myieye/german-verbs zu finden.
-
