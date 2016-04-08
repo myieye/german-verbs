@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/timh/AndroidStudioProjects/German Verbs/app/src/androidTest/res"/><source path="/home/timh/AndroidStudioProjects/German Verbs/app/build/generated/res/rs/androidTest/signed/debug"/><source path="/home/timh/AndroidStudioProjects/German Verbs/app/build/generated/res/generated/androidTest/signed/debug"/></dataSet><dataSet config="androidTestSigned"><source path="/home/timh/AndroidStudioProjects/German Verbs/app/src/androidTestSigned/res"/></dataSet><mergedItems/></merger>

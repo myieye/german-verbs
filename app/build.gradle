@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.timhaasdyk.german_verbs"
+        minSdkVersion 16
+        targetSdkVersion 16
+    }
+    signingConfigs {
+        release {
+            storeFile file("/home/timh/keystores/german.verbs.jks")
+            storePassword (System.console() != null ? System.console().readLine("\nKeystore password: ") : "")
+            keyAlias "german_verbs_key"
+            keyPassword (System.console() != null ? System.console().readLine("\nKey password: ") : "")
+        }
+    }
+    productFlavors {
+        signed {
+            signingConfig signingConfigs.release // defined above
+        }
+
+        unsigned {} // use the default options
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+}

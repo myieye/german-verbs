@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listitem_verb_sel">
+
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="LanguageFlag"
+            android:textColor="@color/primary"
+            android:padding="1dp"
+            android:background="@color/secondary"/>
+
+    <TextView
+        android:id="@+id/txtVerbG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgFlag"
+        android:text="German Infinitive"
+        android:textColor="@color/primary"
+        android:textSize="20sp"/>
+    <!-- android:drawableRight="@+id/imgFav" -->
+
+    <TextView
+        android:id="@+id/txtVerbE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVerbG"
+        android:layout_toRightOf="@id/imgFlag"
+        android:text="English Infinitve"
+        android:textColor="@color/primary2"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imgFav"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/txtArrow"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="isFav"
+        android:textColor="@color/primary"
+        android:onClick="toggleFavourite" />
+
+        <!--
+    <ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_toLeftOf="@+id/txtArrow"
+        android:layout_below="@+id/imgFav"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:contentDescription="LanguageFlag"
+        android:textColor="@color/primary"
+        android:padding="1dp"
+        android:background="@color/secondary"/>
+        -->
+
+    <View
+        android:id="@+id/verb_hLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtVerbE"
+        android:background="#BBB"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/txtArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
+        android:background="@drawable/listitem_verb_sel"
+        android:text=">"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/txtPastParticiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verb_hLine"
+        android:text="Past Participle"
+        android:textColor="@color/secondary"
+        android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtPastParticipleSimplePastSeparator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verb_hLine"
+            android:layout_toRightOf="@+id/txtPastParticiple"
+            android:text=" - "
+            android:textColor="@color/secondary"
+            android:textSize="15sp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/txtSimplePast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verb_hLine"
+            android:layout_toRightOf="@+id/txtPastParticipleSimplePastSeparator"
+            android:text="Simple Past"
+            android:textColor="@color/secondary"
+            android:textSize="15sp"
+            android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/txtStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPastParticiple"
+        android:text="Strength"
+        android:textColor="@color/secondary"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/txtStrengthTypeSeparator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPastParticiple"
+        android:layout_toRightOf="@+id/txtStrength"
+        android:text=" - "
+        android:textColor="@color/secondary"
+
+        android:textSize="15sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPastParticiple"
+        android:layout_toRightOf="@+id/txtStrengthTypeSeparator"
+        android:text="Type"
+        android:textColor="@color/secondary"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/verb_BottomBorder"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/disabled" />
+
+</RelativeLayout><!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/layout/listitem_verb.xml -->

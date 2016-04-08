@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listitem_verb_sel"
+    >
+
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chkView"
+    android:layout_width="wrap_content"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="32dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="18sp"
+    android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/txtTenseG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="German Tense"
+        android:textColor="@color/primary"
+        android:textSize="22sp"
+        android:layout_toRightOf="@+id/chkView"/>
+    <!-- android:drawableRight="@+id/imgFav" -->
+
+    <TextView
+        android:id="@+id/txtTenseE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Tense"
+        android:textColor="@color/primary2"
+        android:textSize="15sp"
+        android:layout_below="@+id/txtTenseG"
+        android:layout_toRightOf="@+id/chkView"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/disabled"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

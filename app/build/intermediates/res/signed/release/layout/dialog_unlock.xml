@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <com.timhaasdyk.german_verbs.CustomSwitch
+        android:id="@+id/swtAllVerbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/switch_unlock_all_verbs"
+        android:textOn="@string/switch_purchase_paid"
+        android:onClick="onClickUnlockVerbs"
+        android:textColor="@drawable/unlock_switch_sel"
+        />
+
+    <TextView
+        android:id="@+id/txtAllVerbsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="...description..."
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <com.timhaasdyk.german_verbs.CustomSwitch
+        android:id="@+id/swtRemoveAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/switch_remove_adds"
+        android:textOn="@string/switch_purchase_paid"
+        android:onClick="onClickUnlockAdds"
+        android:textColor="@drawable/unlock_switch_sel"/>
+
+    <TextView
+        android:id="@+id/txtRemoveAdsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="...description..."
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout><!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/layout/dialog_unlock.xml -->

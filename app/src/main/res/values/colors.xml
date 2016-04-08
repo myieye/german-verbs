@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="primary">#ED0202</color>
+    <color name="primary2">#FFCE00</color>
+    <color name="secondary">#FFFFFF</color>
+    <color name="disabled">#777777</color>
+    <color name="blue_core">#0099CC</color>
+    <color name="blue_core_dk">#0077AA</color>
+    <color name="grey_unckecked">#666666</color>
+    <color name="blue_core_test">#00FF00</color>
+    <!--yellow: #FFCE00-->
+    <!--red: #ED0202-->
+    <!--yellow: #FFCE00-->
+
+</resources>

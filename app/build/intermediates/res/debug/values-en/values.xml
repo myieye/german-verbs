@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string name="alert_title_help">Help</string>
+    <string name="alert_title_license">License</string>
+    <string name="alert_title_purchases">In-App Purchases</string>
+    <string name="app_name">German Verbs</string>
+    <string name="help_file_fail">Help file not found</string>
+    <string name="license_not_found">License not found</string>
+    <string name="rate_explanation">Would you like to rate my app? I\'d really appreciate it!</string>
+    <string name="rate_later">Later...</string>
+    <string name="rate_never">No, thanks</string>
+    <string name="rate_now">Rate It!</string>
+    <string name="rate_title">Rate this app</string>
+    <string name="search_button">Search</string>
+    <string name="search_hint">Search...</string>
+    <string name="switch_purchase_paid">PAID</string>
+    <string name="switch_remove_adds">Remove Adds</string>
+    <string name="switch_unlock_all_verbs">Unlock All Verbs</string>
+    <string name="tab_favourites">Favourites</string>
+    <string name="tab_verb_search">Verb Search</string>
+</resources>

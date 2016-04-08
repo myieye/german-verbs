@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_verb_search">Verb Suche</string>
+    <string name="tab_favourites">Favoriten</string>
+
+    <string name="alert_title_purchases">In-App Käufe</string>
+    <string name="alert_title_help">Hilfe</string>
+    <string name="alert_title_license">Lizenz</string>
+
+    <string name="switch_purchase_paid">BEZAHLT</string>
+    <string name="switch_remove_adds">Werbung entfernen</string>
+    <string name="switch_unlock_all_verbs">Alle Verben freischalten</string>
+
+    <string name="search_hint">Suche...</string>
+    <string name="search_button">Suche</string>
+
+    <string name="license_not_found">Lizenz nicht gefunden</string>
+    <string name="help_file_fail">Hilfsdatei nicht gefunden</string>
+    <string name="app_name">Deutsche Verben</string>
+
+    <string name="rate_explanation">Würden Sie gern meine App bewerten? Ich würde mich freuen!</string>
+    <string name="rate_now">Jetzt bewerten!</string>
+    <string name="rate_later">Später...</string>
+    <string name="rate_never">Nein, danke</string>
+    <string name="rate_title">Die App bewerten</string>
+</resources>

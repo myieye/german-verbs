@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#000000</color>
+    <color name="blue_core">#0099CC</color>
+    <color name="blue_core_dk">#0077AA</color>
+    <color name="blue_core_test">#00FF00</color>
+    <color name="disabled">#777777</color>
+    <color name="grey_unckecked">#666666</color>
+    <color name="primary">#ED0202</color>
+    <color name="primary2">#FFCE00</color>
+    <color name="secondary">#FFFFFF</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">8298000</integer>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="alert_title_help">Help</string>
+    <string name="alert_title_license">License</string>
+    <string name="alert_title_purchases">In-App Purchases</string>
+    <string name="app_name">German Verbs</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="help_file_fail">Help file not found</string>
+    <string name="home_banner_ad_unit_id" translatable="false">ca-app-pub-7334526624118190/5234019267</string>
+    <string name="license_not_found">License not found</string>
+    <string name="rate_explanation">Would you like to rate my app? I\'d really appreciate it!</string>
+    <string name="rate_later">Later...</string>
+    <string name="rate_never">No, thanks</string>
+    <string name="rate_now">Rate It!</string>
+    <string name="rate_title">Rate this app</string>
+    <string name="search_button">Search</string>
+    <string name="search_hint">Search...</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="switch_purchase_paid">PAID</string>
+    <string name="switch_remove_adds">Remove Adds</string>
+    <string name="switch_unlock_all_verbs">Unlock All Verbs</string>
+    <string name="tab_favourites">Favourites</string>
+    <string name="tab_verb_search">Verb Search</string>
+    <string name="verb_guts_name" translatable="false">Verb Guts</string>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles_tabs.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Tabs" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_tabs</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_tabs</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_tabs</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tabs</item>
+    </style>
+    <style name="ActionBar.Transparent.Tabs" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_tabs</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tabs</item>
+    </style>
+    <style name="ActionBarTabStyle.Tabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_tabs</item>
+    </style>
+    <style name="ActionButton.CloseMode.Tabs" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_tabs</item>
+    </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--<item name="android:actionBarTabBarStyle">@style/MyTheme.ActionBar.TabBar</item>
+        <item name="android:actionBarTabStyle">@style/MyTheme.ActionBar.TabView</item>
+        <item name="android:actionBarTabTextStyle">@style/MyTheme.ActionBar.TabText</item>-->
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:background">@null</item>
+
+    </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles_tabs.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Tabs" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_tabs</item>
+    </style>
+    <style name="DropDownNav.Tabs" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_tabs</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tabs</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_tabs</item>
+    </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyTheme.ActionBar.TabBar" parent="android:style/Widget.Holo.Light.ActionBar.TabBar">
+        <!-- This is an ORANGE background -->
+        <item name="android:background">#00FF00</item>
+    </style>
+    <style name="MyTheme.ActionBar.TabText" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <!-- This is a WHITE tab color -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="MyTheme.ActionBar.TabView" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <!-- This is a GREEN background -->
+        <item name="android:background">#0000FF</item>
+    </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles_tabs.xml -->
+    <eat-comment/>
+    <style name="PopupMenu.Tabs" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tabs</item>	
+    </style>
+    <style name="ProgressBar.Tabs" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_tabs</item>
+    </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/home/timh/AndroidStudioProjects/German%20Verbs%20-%20Base/app/src/main/res/values/styles_tabs.xml -->
+    <eat-comment/>
+    <style name="Theme.Tabs" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_tabs</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tabs</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tabs</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Tabs</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Tabs</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Tabs</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_tabs</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_tabs</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Tabs</item>
+        <item name="android:alertDialogStyle">@style/CustomDialogTheme</item>
+        <item name="android:dialogTheme">@style/CustomDialogTheme</item>
+    </style>
+    <style name="Theme.Tabs.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tabs</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tabs</item>
+    </style>
+</resources>
