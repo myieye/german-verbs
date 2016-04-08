@@ -133,8 +133,9 @@ public class MainActivity extends FragmentActivity implements
 
 		lstView = (ListView) findViewById(R.id.lstVerbs);
 
-		String searchText = ((TextView) findViewById(R.id.txtSearch))
-				.getText().toString();
+
+        TextView searchTextView = (TextView) findViewById(R.id.txtSearch);
+		String searchText = searchTextView != null ? searchTextView .getText().toString() : "";
 
 		/*int index = lstView.getFirstVisiblePosition();
 		View v = lstView*/
@@ -551,8 +552,12 @@ public class MainActivity extends FragmentActivity implements
 
 	public void checkAds() {
 		if (purchaseInstance != null) {
-			if (purchaseInstance.getPurchases()[Purchases.REMOVE_ADS])
-				findViewById(R.id.adViewHomeBanner).setVisibility(View.GONE);
+            try {
+                if (purchaseInstance.getPurchases()[Purchases.REMOVE_ADS])
+                    findViewById(R.id.adViewHomeBanner).setVisibility(View.GONE);
+            } catch (NullPointerException e) {
+                //purchaseInstance threw null pointer exception. Bug reported: Oct 12, 2015, 3:44 PM
+            }
 		}
 	}
 
