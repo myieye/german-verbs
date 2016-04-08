@@ -1,0 +1,4 @@
+This app is under the GNU General Public License.
+
+The source code can be found at: github.com/myieye/german-verbs.
+
