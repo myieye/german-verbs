@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/timh/AndroidStudioProjects/German Verbs/app/src/main/aidl/com/android/vending/billing/IInAppBillingService.aidl
+ * Original file: C:\\Users\\Tim\\AndroidStudioProjects\\German Verbs\\app\\src\\main\\aidl\\com\\android\\vending\\billing\\IInAppBillingService.aidl
  */
 package com.android.vending.billing;
 /**
