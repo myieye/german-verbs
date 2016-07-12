@@ -33,6 +33,8 @@ import java.util.List;
 public class Purchases {
 
     private IabHelper mHelper;
+    private enum IabHelperLoadStatus { UNLOADED, LOADING, LOADED, FAILED }
+    IabHelperLoadStatus iabHelperLoadStatus = IabHelperLoadStatus.UNLOADED;
 
     public static final int REMOVE_ADS = 0;
     public static final int ALL_VERBS = 1;
@@ -88,7 +90,8 @@ public class Purchases {
         if (!gotInventoryListenerMade)
             makeGotInventoryListener();
 
-        mHelper.queryInventoryAsync(mGotInventoryListener);
+        if (iabHelperLoadStatus == IabHelperLoadStatus.LOADED);
+            mHelper.queryInventoryAsync(mGotInventoryListener);
     }
 
     IabHelper.OnIabPurchaseFinishedListener mPurchaseFinishedListener;
@@ -140,6 +143,7 @@ public class Purchases {
         return trialVerbs;
     }
 
+    private int makeHelperAttempts = 0;
     private void makeIabHelper() {
         StringBuilder base64EncodedPublicKey = new StringBuilder();
 
@@ -155,16 +159,24 @@ public class Purchases {
 
         // compute your public key and store it in base64EncodedPublicKey
         mHelper = new IabHelper(myContext, base64EncodedPublicKey.toString());
-
+        iabHelperLoadStatus = IabHelperLoadStatus.LOADING;
         mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
             public void onIabSetupFinished(IabResult result) {
                 if (!result.isSuccess()) {
                     // Oh noes, there was a problem.
                     Log.d("Error", "Problem setting up In-app Billing: " + result);
+                    makeHelperAttempts++;
+                    if(makeHelperAttempts < 3)
+                        makeIabHelper();
+                    else
+                        iabHelperLoadStatus = IabHelperLoadStatus.FAILED;
+                } else {
+                    makeHelperAttempts = 0;
+                    iabHelperLoadStatus = IabHelperLoadStatus.LOADED;
+                    // Hooray, IAB is fully set up!
+                    updatePurchases();
                 }
-                // Hooray, IAB is fully set up!
 
-                updatePurchases();
             }
         });
     }
@@ -271,6 +283,7 @@ public class Purchases {
         gotInventoryListenerMade = false;
         productQueryListenerMade = false;
         purchaseListenerMade = false;
+        iabHelperLoadStatus = IabHelperLoadStatus.UNLOADED;
     }
 
     /*public void onActivityResult(int requestCode, int resultCode, Intent data) {

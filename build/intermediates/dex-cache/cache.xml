@@ -2,116 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/pre-dexed/signed/debug/internal_impl-22.2.0-6384bae68644f47d2a60fd1af8ddc5bd60324d21.jar" />
-    </item>
-    <item
-        jar="/home/timh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1-5e0e804013b2f808a65e58d0bc96471c24b1d55e.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1-06133cc2ac09eadbd0907a7b5647f6da577867bb.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/classes.jar"
+        jar="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="27775d59b16610ac76f1b83693fedd9520396332">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/pre-dexed/signed/debug/classes-c7a3f241c54300e7b9e7b3c4ad7259ff3adbc321.jar" />
+        <dex dex="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\pre-dexed\unsigned\debug\com.google.android.gms-play-services-ads-8.3.0_30570038b51553ddda2887427efa018cb4b98723.jar" />
     </item>
     <item
-        jar="/home/timh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="C:\Users\Tim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-768bc5b1f977a3bb15a8a9155a61bc736b9b7b16.jar" />
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\pre-dexed\unsigned\debug\support-annotations-23.3.0_aeab70a10b23287227eb45561bc837997cec07fb.jar" />
     </item>
     <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ebfab01e337acce60242efb010e91f199312b000.jar" />
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\pre-dexed\unsigned\debug\internal_impl-23.3.0_f4b6ef33dd99c3813827275e26f088c840c8fd82.jar" />
     </item>
     <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/classes.jar"
+        jar="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\pre-dexed\unsigned\debug\com.android.support-support-v4-23.3.0_9e786f2f5392dac041fafda7ef8b5d9d2132b36a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/pre-dexed/signed/debug/classes-452ef544da0600786bce6b26e7f9c4bc49690101.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/release/classes-a6ea791d27ea24b196d489996b38ca860880f79d.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/release/classes-d81971097efc0ae2852c0a9a52316d633745194b.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="27775d59b16610ac76f1b83693fedd9520396332">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/release/classes-3efd3452ed0992a9cecd885be10c63699ca1765e.jar" />
-    </item>
-    <item
-        jar="/home/timh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/pre-dexed/signed/debug/support-annotations-22.2.0-5ad14e6ba3b848836ec781077881a9c47d156742.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/classes-2de47718891e3d840bd43bf139f3cb2d158a908d.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs/app/build/intermediates/pre-dexed/signed/debug/classes-39d7c6a50cec131c56c0259cea4254c97781eb75.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/classes-9fd2d51af0d3f7aec7cb5cf436f8a4ee64293fe1.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/classes-c33831245b93acff1ed02cde5787965c116cf855.jar" />
-    </item>
-    <item
-        jar="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/home/timh/AndroidStudioProjects/German Verbs - Base/app/build/intermediates/pre-dexed/debug/classes-897354183dc21203dd3c1abc6a3986b487021abc.jar" />
+        <dex dex="C:\Users\Tim\AndroidStudioProjects\German Verbs\app\build\intermediates\pre-dexed\unsigned\debug\com.google.android.gms-play-services-basement-8.3.0_0fce38b216f5284cf59e8437be8ad6ecd0270fa5.jar" />
     </item>
 
 </items>

@@ -305,6 +305,13 @@ public class AppRater {
         }
     }
 
+    private void setLaunchCount(SharedPreferences.Editor editor, int launchCount) {
+        if (editor != null) {
+            editor.putLong(mPreference_launchCount, launchCount);
+            savePreferences(editor);
+        }
+    }
+
     private void buttonNowClick(SharedPreferences.Editor editor, DialogInterface dialog, Context context) {
         setDontShow(editor);
         closeDialog(dialog);
@@ -312,7 +319,8 @@ public class AppRater {
     }
 
     private void buttonLaterClick(SharedPreferences.Editor editor, DialogInterface dialog, long firstLaunchTime) {
-        setFirstLaunchTime(editor, firstLaunchTime + DateUtils.DAY_IN_MILLIS); // remind again later (but wait at least 24 hours)
+        setFirstLaunchTime(editor, 0);
+        setLaunchCount(editor, 0);
         closeDialog(dialog);
     }
 

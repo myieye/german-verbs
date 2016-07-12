@@ -20,8 +20,8 @@ android {
     productFlavors {
         signed {
             signingConfig signingConfigs.release // defined above
+            minSdkVersion 19
         }
-
         unsigned {} // use the default options
     }
     buildTypes {
@@ -36,6 +36,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19'
+    compile 'com.android.support:support-v4:23.3.0'
     compile 'com.google.android.gms:play-services-ads:8.3.0'
 }
